@@ -1,0 +1,2 @@
+
+    <div class="sidebar-divider"></div>

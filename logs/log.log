@@ -1,0 +1,360 @@
+2020-03-17 00:00:00.003  INFO 9932 --- [hutool-cron-1] cn.jump.blog.task.PostSyncTask           : The number of visits to 0 posts has been updated
+2020-03-17 00:07:38.468  INFO 18696 --- [main] cn.jump.blog.Application                 : Starting Application on DESKTOP-RFI7J4I with PID 18696 (D:\github\Jump\target\classes started by jumping in D:\github\Jump)
+2020-03-17 00:07:38.468  INFO 18696 --- [main] cn.jump.blog.Application                 : No active profile set, falling back to default profiles: default
+2020-03-17 00:07:38.921  INFO 18696 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-17 00:07:38.985  INFO 18696 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60ms. Found 11 repository interfaces.
+2020-03-17 00:07:39.266  INFO 18696 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$673436dd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-17 00:07:39.439  WARN 18696 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-03-17 00:07:39.463  INFO 18696 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2020-03-17 00:07:39.464  INFO 18696 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 959 ms
+2020-03-17 00:07:39.510  INFO 18696 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 将FilterRegistrationBean<CorsFilter>注入到Spring容器当中!
+2020-03-17 00:07:39.615  INFO 18696 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-17 00:07:39.691  INFO 18696 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-17 00:07:39.743  INFO 18696 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-17 00:07:39.825  INFO 18696 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2020-03-17 00:07:39.826  INFO 18696 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-03-17 00:07:39.913  INFO 18696 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-03-17 00:07:40.111  INFO 18696 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-17 00:07:40.825  INFO 18696 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@203b953c'
+2020-03-17 00:07:40.827  INFO 18696 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-17 00:07:41.285  INFO 18696 --- [main] c.j.b.c.FreeMarkerAutoConfiguration      : 进入到freemarker设置
+2020-03-17 00:07:41.285  INFO 18696 --- [main] c.j.b.c.FreeMarkerAutoConfiguration      : 自定义freemarker标签
+2020-03-17 00:07:41.288  INFO 18696 --- [main] c.j.b.service.impl.OptionsServiceImpl    : 查询所有的设置选项
+2020-03-17 00:07:41.314  INFO 18696 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-03-17 00:07:41.486  INFO 18696 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 注册登录拦截器1
+2020-03-17 00:07:41.487  INFO 18696 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 注册安装拦截器2
+2020-03-17 00:07:41.487  INFO 18696 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 注册国际化拦截器
+2020-03-17 00:07:41.487  INFO 18696 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 将LocaleChangeInterceptor注入到Spring容器当中，国际化参数拦截器！
+2020-03-17 00:07:41.489  WARN 18696 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-17 00:07:41.546  INFO 18696 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 配置静态资源路径!
+2020-03-17 00:07:41.608  INFO 18696 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 将LocaleResolver注入到容器当中，国际化设置!
+2020-03-17 00:07:41.735  INFO 18696 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2020-03-17 00:07:41.742  INFO 18696 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2020-03-17 00:07:41.780  INFO 18696 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8090 (http) with context path ''
+2020-03-17 00:07:41.782  INFO 18696 --- [main] cn.jump.blog.Application                 : Started Application in 3.606 seconds (JVM running for 4.852)
+2020-03-17 00:07:41.782  INFO 18696 --- [main] cn.jump.blog.listener.StartedListener    : 进入到监听器
+2020-03-17 00:07:41.782  INFO 18696 --- [main] cn.jump.blog.listener.StartedListener    : 加载主体设置!
+2020-03-17 00:07:41.782  INFO 18696 --- [main] c.j.b.service.impl.OptionsServiceImpl    : 根据列名查询另一个列的值
+2020-03-17 00:07:41.793  INFO 18696 --- [main] cn.jump.blog.listener.StartedListener    : 加载设置选项!
+2020-03-17 00:07:41.793  INFO 18696 --- [main] c.j.b.service.impl.OptionsServiceImpl    : 查询所有的设置选项
+2020-03-17 00:07:41.795  INFO 18696 --- [main] cn.jump.blog.listener.StartedListener    : 加载所有主题!
+2020-03-17 00:07:41.825  INFO 18696 --- [main] cn.jump.blog.listener.StartedListener    : The scheduled task starts successfully!
+2020-03-17 00:07:41.827  INFO 18696 --- [main] cn.jump.blog.Application                 : Jump’s Blog started at http://127.0.0.1:8090
+2020-03-17 00:08:24.556  INFO 18696 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-17 00:08:24.556  INFO 18696 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-17 00:08:24.560  INFO 18696 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-03-17 00:08:24.569  INFO 18696 --- [XNIO-1 task-1] c.j.b.w.interceptor.InstallInterceptor   : 进入到安装拦截器，判断是否已经安装，如果没有安装则重定向到安装控制器
+2020-03-17 00:08:24.584  INFO 18696 --- [XNIO-1 task-2] c.j.b.web.interceptor.LocaleInterceptor  : 进入到系统国际化配置拦截器，
+2020-03-17 00:08:24.594  INFO 18696 --- [XNIO-1 task-2] c.j.b.w.c.core.InstallController         : 进入到安装控制器的安装方法，判断此程序是否已经安装过
+2020-03-17 00:09:28.265  INFO 18696 --- [XNIO-1 task-3] c.j.b.service.impl.OptionsServiceImpl    : 查询所有的设置选项
+2020-03-17 00:10:23.204  INFO 9900 --- [main] cn.jump.blog.Application                 : Starting Application on DESKTOP-RFI7J4I with PID 9900 (D:\github\Jump\target\classes started by jumping in D:\github\Jump)
+2020-03-17 00:10:23.204  INFO 9900 --- [main] cn.jump.blog.Application                 : No active profile set, falling back to default profiles: default
+2020-03-17 00:10:23.665  INFO 9900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-17 00:10:23.734  INFO 9900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65ms. Found 11 repository interfaces.
+2020-03-17 00:10:24.013  INFO 9900 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7f9206e0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-17 00:10:24.192  WARN 9900 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-03-17 00:10:24.208  INFO 9900 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2020-03-17 00:10:24.208  INFO 9900 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 967 ms
+2020-03-17 00:10:24.254  INFO 9900 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 将FilterRegistrationBean<CorsFilter>注入到Spring容器当中!
+2020-03-17 00:10:24.358  INFO 9900 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-17 00:10:24.433  INFO 9900 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-17 00:10:24.485  INFO 9900 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-17 00:10:24.564  INFO 9900 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2020-03-17 00:10:24.565  INFO 9900 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-03-17 00:10:24.652  INFO 9900 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-03-17 00:10:24.848  INFO 9900 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-17 00:10:25.492  INFO 9900 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-17 00:10:25.923  INFO 9900 --- [main] c.j.b.c.FreeMarkerAutoConfiguration      : 进入到freemarker设置
+2020-03-17 00:10:25.924  INFO 9900 --- [main] c.j.b.c.FreeMarkerAutoConfiguration      : 自定义freemarker标签
+2020-03-17 00:10:25.927  INFO 9900 --- [main] c.j.b.service.impl.OptionsServiceImpl    : 查询所有的设置选项
+2020-03-17 00:10:25.952  INFO 9900 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-03-17 00:10:26.131  INFO 9900 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 注册登录拦截器1
+2020-03-17 00:10:26.131  INFO 9900 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 注册安装拦截器2
+2020-03-17 00:10:26.132  INFO 9900 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 注册国际化拦截器
+2020-03-17 00:10:26.132  INFO 9900 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 将LocaleChangeInterceptor注入到Spring容器当中，国际化参数拦截器！
+2020-03-17 00:10:26.134  WARN 9900 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-17 00:10:26.186  INFO 9900 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 配置静态资源路径!
+2020-03-17 00:10:26.243  INFO 9900 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 将LocaleResolver注入到容器当中，国际化设置!
+2020-03-17 00:10:26.364  INFO 9900 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2020-03-17 00:10:26.373  INFO 9900 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2020-03-17 00:10:26.413  INFO 9900 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8090 (http) with context path ''
+2020-03-17 00:10:26.414  INFO 9900 --- [main] cn.jump.blog.Application                 : Started Application in 3.506 seconds (JVM running for 4.755)
+2020-03-17 00:10:26.415  INFO 9900 --- [main] cn.jump.blog.listener.StartedListener    : 进入到监听器
+2020-03-17 00:10:26.415  INFO 9900 --- [main] cn.jump.blog.listener.StartedListener    : 加载主体设置!
+2020-03-17 00:10:26.415  INFO 9900 --- [main] c.j.b.service.impl.OptionsServiceImpl    : 根据列名查询另一个列的值
+2020-03-17 00:10:26.427  INFO 9900 --- [main] cn.jump.blog.listener.StartedListener    : 加载设置选项!
+2020-03-17 00:10:26.428  INFO 9900 --- [main] c.j.b.service.impl.OptionsServiceImpl    : 查询所有的设置选项
+2020-03-17 00:10:26.431  INFO 9900 --- [main] cn.jump.blog.listener.StartedListener    : 加载所有主题!
+2020-03-17 00:10:26.576  INFO 9900 --- [main] cn.jump.blog.listener.StartedListener    : The scheduled task starts successfully!
+2020-03-17 00:10:26.578  INFO 9900 --- [main] cn.jump.blog.Application                 : Jump’s Blog started at http://127.0.0.1:8090
+2020-03-17 00:10:33.585  INFO 9900 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-17 00:10:33.585  INFO 9900 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-17 00:10:33.589  INFO 9900 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-03-17 00:10:33.596  INFO 9900 --- [XNIO-1 task-1] c.j.b.web.interceptor.LocaleInterceptor  : 进入到系统国际化配置拦截器，
+2020-03-17 00:10:33.605  INFO 9900 --- [XNIO-1 task-1] c.j.b.w.c.core.InstallController         : 进入到安装控制器的安装方法，判断此程序是否已经安装过
+2020-03-17 00:10:33.748  INFO 9900 --- [XNIO-1 task-2] c.j.b.w.interceptor.InstallInterceptor   : 进入到安装拦截器，判断是否已经安装，如果没有安装则重定向到安装控制器
+2020-03-17 00:10:44.608  INFO 9900 --- [XNIO-1 task-3] c.j.b.w.interceptor.InstallInterceptor   : 进入到安装拦截器，判断是否已经安装，如果没有安装则重定向到安装控制器
+2020-03-17 00:11:16.645  INFO 6724 --- [main] cn.jump.blog.Application                 : Starting Application on DESKTOP-RFI7J4I with PID 6724 (D:\github\Jump\target\classes started by jumping in D:\github\Jump)
+2020-03-17 00:11:16.646  INFO 6724 --- [main] cn.jump.blog.Application                 : No active profile set, falling back to default profiles: default
+2020-03-17 00:11:17.096  INFO 6724 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-17 00:11:17.160  INFO 6724 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59ms. Found 11 repository interfaces.
+2020-03-17 00:11:17.440  INFO 6724 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5dcf691e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-17 00:11:17.612  WARN 6724 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-03-17 00:11:17.636  INFO 6724 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2020-03-17 00:11:17.636  INFO 6724 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 954 ms
+2020-03-17 00:11:17.683  INFO 6724 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 将FilterRegistrationBean<CorsFilter>注入到Spring容器当中!
+2020-03-17 00:11:17.788  INFO 6724 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-17 00:11:17.863  INFO 6724 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-17 00:11:17.915  INFO 6724 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-17 00:11:17.994  INFO 6724 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2020-03-17 00:11:17.995  INFO 6724 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-03-17 00:11:18.082  INFO 6724 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-03-17 00:11:18.280  INFO 6724 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-17 00:11:18.916  INFO 6724 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-17 00:11:19.349  INFO 6724 --- [main] c.j.b.c.FreeMarkerAutoConfiguration      : 进入到freemarker设置
+2020-03-17 00:11:19.349  INFO 6724 --- [main] c.j.b.c.FreeMarkerAutoConfiguration      : 自定义freemarker标签
+2020-03-17 00:11:19.352  INFO 6724 --- [main] c.j.b.service.impl.OptionsServiceImpl    : 查询所有的设置选项
+2020-03-17 00:11:19.377  INFO 6724 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-03-17 00:11:19.557  INFO 6724 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 注册登录拦截器1
+2020-03-17 00:11:19.558  INFO 6724 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 注册安装拦截器2
+2020-03-17 00:11:19.558  INFO 6724 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 注册国际化拦截器
+2020-03-17 00:11:19.558  INFO 6724 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 将LocaleChangeInterceptor注入到Spring容器当中，国际化参数拦截器！
+2020-03-17 00:11:19.560  WARN 6724 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-17 00:11:19.613  INFO 6724 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 配置静态资源路径!
+2020-03-17 00:11:19.670  INFO 6724 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 将LocaleResolver注入到容器当中，国际化设置!
+2020-03-17 00:11:19.792  INFO 6724 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2020-03-17 00:11:19.799  INFO 6724 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2020-03-17 00:11:19.837  INFO 6724 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8090 (http) with context path ''
+2020-03-17 00:11:19.839  INFO 6724 --- [main] cn.jump.blog.Application                 : Started Application in 3.483 seconds (JVM running for 4.756)
+2020-03-17 00:11:19.839  INFO 6724 --- [main] cn.jump.blog.listener.StartedListener    : 进入到监听器
+2020-03-17 00:11:19.839  INFO 6724 --- [main] cn.jump.blog.listener.StartedListener    : 加载主体设置!
+2020-03-17 00:11:19.839  INFO 6724 --- [main] c.j.b.service.impl.OptionsServiceImpl    : 根据列名查询另一个列的值
+2020-03-17 00:11:19.852  INFO 6724 --- [main] cn.jump.blog.listener.StartedListener    : 加载设置选项!
+2020-03-17 00:11:19.852  INFO 6724 --- [main] c.j.b.service.impl.OptionsServiceImpl    : 查询所有的设置选项
+2020-03-17 00:11:19.855  INFO 6724 --- [main] cn.jump.blog.listener.StartedListener    : 加载所有主题!
+2020-03-17 00:11:19.990  INFO 6724 --- [main] cn.jump.blog.listener.StartedListener    : The scheduled task starts successfully!
+2020-03-17 00:11:19.992  INFO 6724 --- [main] cn.jump.blog.Application                 : Jump’s Blog started at http://127.0.0.1:8090
+2020-03-17 00:11:22.871  INFO 6724 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-17 00:11:22.872  INFO 6724 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-17 00:11:22.878  INFO 6724 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-03-17 00:11:22.885  INFO 6724 --- [XNIO-1 task-1] c.j.b.w.interceptor.InstallInterceptor   : 进入到安装拦截器，判断是否已经安装，如果没有安装则重定向到安装控制器
+2020-03-17 00:11:36.192  INFO 6724 --- [XNIO-1 task-2] c.j.b.w.interceptor.InstallInterceptor   : 进入到安装拦截器，判断是否已经安装，如果没有安装则重定向到安装控制器
+2020-03-17 00:11:36.194  INFO 6724 --- [XNIO-1 task-2] c.j.b.w.interceptor.InstallInterceptor   : 进入到安装拦截器，判断是否已经安装，如果没有安装则重定向到安装控制器
+2020-03-17 00:11:36.203  INFO 6724 --- [XNIO-1 task-3] c.j.b.w.interceptor.InstallInterceptor   : 进入到安装拦截器，判断是否已经安装，如果没有安装则重定向到安装控制器
+2020-03-17 00:11:43.642  INFO 6724 --- [XNIO-1 task-4] c.j.b.w.interceptor.InstallInterceptor   : 进入到安装拦截器，判断是否已经安装，如果没有安装则重定向到安装控制器
+2020-03-17 00:21:12.091  INFO 7760 --- [main] cn.jump.blog.Application                 : Starting Application on DESKTOP-RFI7J4I with PID 7760 (D:\github\Jump\target\classes started by jumping in D:\github\Jump)
+2020-03-17 00:21:12.092  INFO 7760 --- [main] cn.jump.blog.Application                 : No active profile set, falling back to default profiles: default
+2020-03-17 00:21:12.601  INFO 7760 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-17 00:21:12.668  INFO 7760 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63ms. Found 11 repository interfaces.
+2020-03-17 00:21:12.947  INFO 7760 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$93531f6b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-17 00:21:13.119  WARN 7760 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-03-17 00:21:13.143  INFO 7760 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2020-03-17 00:21:13.143  INFO 7760 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 998 ms
+2020-03-17 00:21:13.188  INFO 7760 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 将FilterRegistrationBean<CorsFilter>注入到Spring容器当中!
+2020-03-17 00:21:13.293  INFO 7760 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-17 00:21:13.367  INFO 7760 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-17 00:21:13.420  INFO 7760 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-17 00:21:13.503  INFO 7760 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2020-03-17 00:21:13.504  INFO 7760 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-03-17 00:21:13.591  INFO 7760 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-03-17 00:21:13.789  INFO 7760 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-17 00:21:14.498  INFO 7760 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@2049e582'
+2020-03-17 00:21:14.500  INFO 7760 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-17 00:21:14.944  INFO 7760 --- [main] c.j.b.c.FreeMarkerAutoConfiguration      : 进入到freemarker设置
+2020-03-17 00:21:14.944  INFO 7760 --- [main] c.j.b.c.FreeMarkerAutoConfiguration      : 自定义freemarker标签
+2020-03-17 00:21:14.947  INFO 7760 --- [main] c.j.b.service.impl.OptionsServiceImpl    : 查询所有的设置选项
+2020-03-17 00:21:14.972  INFO 7760 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-03-17 00:21:15.136  INFO 7760 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 注册登录拦截器1
+2020-03-17 00:21:15.136  INFO 7760 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 注册安装拦截器2
+2020-03-17 00:21:15.137  INFO 7760 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 注册国际化拦截器
+2020-03-17 00:21:15.137  INFO 7760 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 将LocaleChangeInterceptor注入到Spring容器当中，国际化参数拦截器！
+2020-03-17 00:21:15.139  WARN 7760 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-17 00:21:15.193  INFO 7760 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 配置静态资源路径!
+2020-03-17 00:21:15.253  INFO 7760 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 将LocaleResolver注入到容器当中，国际化设置!
+2020-03-17 00:21:15.373  INFO 7760 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2020-03-17 00:21:15.380  INFO 7760 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2020-03-17 00:21:15.418  INFO 7760 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8090 (http) with context path ''
+2020-03-17 00:21:15.420  INFO 7760 --- [main] cn.jump.blog.Application                 : Started Application in 3.653 seconds (JVM running for 4.925)
+2020-03-17 00:21:15.420  INFO 7760 --- [main] cn.jump.blog.listener.StartedListener    : 进入到监听器
+2020-03-17 00:21:15.420  INFO 7760 --- [main] cn.jump.blog.listener.StartedListener    : 加载主体设置!
+2020-03-17 00:21:15.421  INFO 7760 --- [main] c.j.b.service.impl.OptionsServiceImpl    : 根据列名查询另一个列的值
+2020-03-17 00:21:15.431  INFO 7760 --- [main] cn.jump.blog.listener.StartedListener    : 加载设置选项!
+2020-03-17 00:21:15.432  INFO 7760 --- [main] c.j.b.service.impl.OptionsServiceImpl    : 查询所有的设置选项
+2020-03-17 00:21:15.433  INFO 7760 --- [main] cn.jump.blog.listener.StartedListener    : 加载所有主题!
+2020-03-17 00:21:15.464  INFO 7760 --- [main] cn.jump.blog.listener.StartedListener    : The scheduled task starts successfully!
+2020-03-17 00:21:15.466  INFO 7760 --- [main] cn.jump.blog.Application                 : Jump’s Blog started at http://127.0.0.1:8090
+2020-03-17 00:21:19.061  INFO 7760 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-17 00:21:19.062  INFO 7760 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-17 00:21:19.066  INFO 7760 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-03-17 00:21:19.073  INFO 7760 --- [XNIO-1 task-1] c.j.b.w.interceptor.InstallInterceptor   : 进入到安装拦截器
+2020-03-17 00:21:19.073  INFO 7760 --- [XNIO-1 task-1] c.j.b.w.interceptor.InstallInterceptor   : 如果没有安装则重定向到安装控制器
+2020-03-17 00:21:19.084  INFO 7760 --- [XNIO-1 task-2] c.j.b.web.interceptor.LocaleInterceptor  : 进入到系统国际化配置拦截器，
+2020-03-17 00:21:19.093  INFO 7760 --- [XNIO-1 task-2] c.j.b.w.c.core.InstallController         : 进入到安装控制器
+2020-03-17 00:21:19.094  INFO 7760 --- [XNIO-1 task-2] c.j.b.w.c.core.InstallController         : 将model数据传给指定视图install.ftl
+2020-03-17 00:23:48.357  INFO 16632 --- [main] cn.jump.blog.Application                 : Starting Application on DESKTOP-RFI7J4I with PID 16632 (D:\github\Jump\target\classes started by jumping in D:\github\Jump)
+2020-03-17 00:23:48.358  INFO 16632 --- [main] cn.jump.blog.Application                 : No active profile set, falling back to default profiles: default
+2020-03-17 00:23:48.807  INFO 16632 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-17 00:23:48.874  INFO 16632 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 61ms. Found 11 repository interfaces.
+2020-03-17 00:23:49.153  INFO 16632 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$746a0870] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-17 00:23:49.326  WARN 16632 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-03-17 00:23:49.350  INFO 16632 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2020-03-17 00:23:49.350  INFO 16632 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 959 ms
+2020-03-17 00:23:49.399  INFO 16632 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 将FilterRegistrationBean<CorsFilter>注入到Spring容器当中!
+2020-03-17 00:23:49.503  INFO 16632 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-17 00:23:49.577  INFO 16632 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-17 00:23:49.630  INFO 16632 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-17 00:23:49.709  INFO 16632 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2020-03-17 00:23:49.710  INFO 16632 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-03-17 00:23:49.797  INFO 16632 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-03-17 00:23:49.991  INFO 16632 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-17 00:23:50.709  INFO 16632 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@3a45afd4'
+2020-03-17 00:23:50.711  INFO 16632 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-17 00:23:51.158  INFO 16632 --- [main] c.j.b.c.FreeMarkerAutoConfiguration      : 进入到freemarker设置
+2020-03-17 00:23:51.159  INFO 16632 --- [main] c.j.b.c.FreeMarkerAutoConfiguration      : 自定义freemarker标签
+2020-03-17 00:23:51.162  INFO 16632 --- [main] c.j.b.service.impl.OptionsServiceImpl    : 查询所有的设置选项
+2020-03-17 00:23:51.187  INFO 16632 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-03-17 00:23:51.351  INFO 16632 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 注册登录拦截器1
+2020-03-17 00:23:51.351  INFO 16632 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 注册安装拦截器2
+2020-03-17 00:23:51.351  INFO 16632 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 注册国际化拦截器
+2020-03-17 00:23:51.351  INFO 16632 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 将LocaleChangeInterceptor注入到Spring容器当中，国际化参数拦截器！
+2020-03-17 00:23:51.353  WARN 16632 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-17 00:23:51.407  INFO 16632 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 配置静态资源路径!
+2020-03-17 00:23:51.466  INFO 16632 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 将LocaleResolver注入到容器当中，国际化设置!
+2020-03-17 00:23:51.593  INFO 16632 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2020-03-17 00:23:51.600  INFO 16632 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2020-03-17 00:23:51.639  INFO 16632 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8090 (http) with context path ''
+2020-03-17 00:23:51.641  INFO 16632 --- [main] cn.jump.blog.Application                 : Started Application in 3.582 seconds (JVM running for 4.782)
+2020-03-17 00:23:51.641  INFO 16632 --- [main] cn.jump.blog.listener.StartedListener    : 进入到监听器
+2020-03-17 00:23:51.641  INFO 16632 --- [main] cn.jump.blog.listener.StartedListener    : 加载主体设置!
+2020-03-17 00:23:51.641  INFO 16632 --- [main] c.j.b.service.impl.OptionsServiceImpl    : 根据列名查询另一个列的值
+2020-03-17 00:23:51.652  INFO 16632 --- [main] cn.jump.blog.listener.StartedListener    : 加载设置选项!
+2020-03-17 00:23:51.652  INFO 16632 --- [main] c.j.b.service.impl.OptionsServiceImpl    : 查询所有的设置选项
+2020-03-17 00:23:51.654  INFO 16632 --- [main] cn.jump.blog.listener.StartedListener    : 加载所有主题!
+2020-03-17 00:23:51.685  INFO 16632 --- [main] cn.jump.blog.listener.StartedListener    : The scheduled task starts successfully!
+2020-03-17 00:23:51.687  INFO 16632 --- [main] cn.jump.blog.Application                 : Jump’s Blog started at http://127.0.0.1:8090
+2020-03-17 00:23:53.570  INFO 16632 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-17 00:23:53.571  INFO 16632 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-17 00:23:53.576  INFO 16632 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-03-17 00:23:53.583  INFO 16632 --- [XNIO-1 task-1] c.j.b.w.interceptor.InstallInterceptor   : 进入到安装拦截器
+2020-03-17 00:23:53.584  INFO 16632 --- [XNIO-1 task-1] c.j.b.w.interceptor.InstallInterceptor   : 如果没有安装则重定向到安装控制器
+2020-03-17 00:23:53.595  INFO 16632 --- [XNIO-1 task-2] c.j.b.web.interceptor.LocaleInterceptor  : 进入到系统国际化配置拦截器，
+2020-03-17 00:23:53.604  INFO 16632 --- [XNIO-1 task-2] c.j.b.w.c.core.InstallController         : 进入到安装控制器
+2020-03-17 00:23:53.605  INFO 16632 --- [XNIO-1 task-2] c.j.b.w.c.core.InstallController         : 开始将model数据传给指定视图install.ftl
+2020-03-17 00:25:29.924  INFO 16632 --- [XNIO-1 task-3] c.j.b.w.c.core.InstallController         : 开始执行安装，进入到此方法是由前端的if标签去控制的，由表单的action指定跳转到此方法
+2020-03-17 00:25:30.126  INFO 16632 --- [XNIO-1 task-3] c.j.b.service.impl.OptionsServiceImpl    : 查询所有的设置选项
+2020-03-17 00:25:48.607  INFO 16632 --- [XNIO-1 task-4] c.j.b.w.interceptor.InstallInterceptor   : 进入到安装拦截器
+2020-03-17 00:25:48.607  INFO 16632 --- [XNIO-1 task-4] c.j.b.w.interceptor.InstallInterceptor   : 判断是否已经安装，如果已经安装则返回true
+2020-03-17 00:25:58.885  INFO 16632 --- [XNIO-1 task-6] c.j.b.w.interceptor.InstallInterceptor   : 进入到安装拦截器
+2020-03-17 00:25:58.886  INFO 16632 --- [XNIO-1 task-6] c.j.b.w.interceptor.InstallInterceptor   : 判断是否已经安装，如果已经安装则返回true
+2020-03-17 00:26:04.952  INFO 16632 --- [XNIO-1 task-7] c.j.b.w.interceptor.InstallInterceptor   : 进入到安装拦截器
+2020-03-17 00:26:04.953  INFO 16632 --- [XNIO-1 task-7] c.j.b.w.interceptor.InstallInterceptor   : 判断是否已经安装，如果已经安装则返回true
+2020-03-17 00:26:04.989  INFO 16632 --- [XNIO-1 task-8] c.j.b.w.interceptor.InstallInterceptor   : 进入到安装拦截器
+2020-03-17 00:26:04.990  INFO 16632 --- [XNIO-1 task-8] c.j.b.w.interceptor.InstallInterceptor   : 判断是否已经安装，如果已经安装则返回true
+2020-03-17 00:26:05.019  INFO 16632 --- [XNIO-1 task-14] c.j.b.w.interceptor.InstallInterceptor   : 进入到安装拦截器
+2020-03-17 00:26:05.019  INFO 16632 --- [XNIO-1 task-14] c.j.b.w.interceptor.InstallInterceptor   : 判断是否已经安装，如果已经安装则返回true
+2020-03-17 00:26:57.972  INFO 12368 --- [main] cn.jump.blog.Application                 : Starting Application on DESKTOP-RFI7J4I with PID 12368 (D:\github\Jump\target\classes started by jumping in D:\github\Jump)
+2020-03-17 00:26:57.973  INFO 12368 --- [main] cn.jump.blog.Application                 : No active profile set, falling back to default profiles: default
+2020-03-17 00:26:58.443  INFO 12368 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-17 00:26:58.510  INFO 12368 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63ms. Found 11 repository interfaces.
+2020-03-17 00:26:58.789  INFO 12368 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$29a69c02] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-17 00:26:58.967  WARN 12368 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-03-17 00:26:58.983  INFO 12368 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2020-03-17 00:26:58.983  INFO 12368 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 970 ms
+2020-03-17 00:26:59.030  INFO 12368 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 将FilterRegistrationBean<CorsFilter>注入到Spring容器当中!
+2020-03-17 00:26:59.147  INFO 12368 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-17 00:26:59.224  INFO 12368 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-17 00:26:59.279  INFO 12368 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-17 00:26:59.363  INFO 12368 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2020-03-17 00:26:59.364  INFO 12368 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-03-17 00:26:59.455  INFO 12368 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-03-17 00:26:59.654  INFO 12368 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-17 00:27:00.372  INFO 12368 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@5873f3f0'
+2020-03-17 00:27:00.374  INFO 12368 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-17 00:27:00.815  INFO 12368 --- [main] c.j.b.c.FreeMarkerAutoConfiguration      : 进入到freemarker设置
+2020-03-17 00:27:00.815  INFO 12368 --- [main] c.j.b.c.FreeMarkerAutoConfiguration      : 自定义freemarker标签
+2020-03-17 00:27:00.818  INFO 12368 --- [main] c.j.b.service.impl.OptionsServiceImpl    : 查询所有的设置选项
+2020-03-17 00:27:00.843  INFO 12368 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-03-17 00:27:01.006  INFO 12368 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 注册登录拦截器1
+2020-03-17 00:27:01.007  INFO 12368 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 注册安装拦截器2
+2020-03-17 00:27:01.007  INFO 12368 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 注册国际化拦截器
+2020-03-17 00:27:01.007  INFO 12368 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 将LocaleChangeInterceptor注入到Spring容器当中，国际化参数拦截器！
+2020-03-17 00:27:01.009  WARN 12368 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-17 00:27:01.065  INFO 12368 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 配置静态资源路径!
+2020-03-17 00:27:01.125  INFO 12368 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 将LocaleResolver注入到容器当中，国际化设置!
+2020-03-17 00:27:01.244  INFO 12368 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2020-03-17 00:27:01.251  INFO 12368 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2020-03-17 00:27:01.289  INFO 12368 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8090 (http) with context path ''
+2020-03-17 00:27:01.291  INFO 12368 --- [main] cn.jump.blog.Application                 : Started Application in 3.618 seconds (JVM running for 4.837)
+2020-03-17 00:27:01.291  INFO 12368 --- [main] cn.jump.blog.listener.StartedListener    : 进入到监听器
+2020-03-17 00:27:01.291  INFO 12368 --- [main] cn.jump.blog.listener.StartedListener    : 加载主体设置!
+2020-03-17 00:27:01.292  INFO 12368 --- [main] c.j.b.service.impl.OptionsServiceImpl    : 根据列名查询另一个列的值
+2020-03-17 00:27:01.302  INFO 12368 --- [main] cn.jump.blog.listener.StartedListener    : 加载设置选项!
+2020-03-17 00:27:01.303  INFO 12368 --- [main] c.j.b.service.impl.OptionsServiceImpl    : 查询所有的设置选项
+2020-03-17 00:27:01.305  INFO 12368 --- [main] cn.jump.blog.listener.StartedListener    : 加载所有主题!
+2020-03-17 00:27:01.335  INFO 12368 --- [main] cn.jump.blog.listener.StartedListener    : The scheduled task starts successfully!
+2020-03-17 00:27:01.337  INFO 12368 --- [main] cn.jump.blog.Application                 : Jump’s Blog started at http://127.0.0.1:8090
+2020-03-17 10:39:56.297  WARN 12368 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10h11m57s221ms544µs200ns).
+2020-03-17 11:00:00.003  INFO 12368 --- [hutool-cron-3] cn.jump.blog.task.PostSyncTask           : The number of visits to 0 posts has been updated
+2020-03-17 12:00:00.000  INFO 12368 --- [hutool-cron-11] cn.jump.blog.task.PostSyncTask           : The number of visits to 0 posts has been updated
+2020-03-17 13:00:00.000  INFO 12368 --- [hutool-cron-21] cn.jump.blog.task.PostSyncTask           : The number of visits to 0 posts has been updated
+2020-03-17 13:54:42.137  INFO 15180 --- [main] cn.jump.blog.Application                 : Starting Application on DESKTOP-RFI7J4I with PID 15180 (D:\github\Jump\target\classes started by jumping in D:\github\Jump)
+2020-03-17 13:54:42.138  INFO 15180 --- [main] cn.jump.blog.Application                 : No active profile set, falling back to default profiles: default
+2020-03-17 13:54:42.615  INFO 15180 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-03-17 13:54:42.685  INFO 15180 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66ms. Found 11 repository interfaces.
+2020-03-17 13:54:42.975  INFO 15180 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$da37f23f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-03-17 13:54:43.159  WARN 15180 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2020-03-17 13:54:43.176  INFO 15180 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2020-03-17 13:54:43.176  INFO 15180 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1005 ms
+2020-03-17 13:54:43.227  INFO 15180 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 将FilterRegistrationBean<CorsFilter>注入到Spring容器当中!
+2020-03-17 13:54:43.337  INFO 15180 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-17 13:54:43.415  INFO 15180 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-17 13:54:43.468  INFO 15180 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2020-03-17 13:54:43.551  INFO 15180 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2020-03-17 13:54:43.552  INFO 15180 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2020-03-17 13:54:43.641  INFO 15180 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2020-03-17 13:54:43.841  INFO 15180 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-03-17 13:54:44.560  INFO 15180 --- [main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@762a10b6'
+2020-03-17 13:54:44.562  INFO 15180 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-03-17 13:54:45.000  INFO 15180 --- [main] c.j.b.c.FreeMarkerAutoConfiguration      : 进入到freemarker设置
+2020-03-17 13:54:45.000  INFO 15180 --- [main] c.j.b.c.FreeMarkerAutoConfiguration      : 自定义freemarker标签
+2020-03-17 13:54:45.003  INFO 15180 --- [main] c.j.b.service.impl.OptionsServiceImpl    : 查询所有的设置选项
+2020-03-17 13:54:45.028  INFO 15180 --- [main] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2020-03-17 13:54:45.190  INFO 15180 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 注册登录拦截器1
+2020-03-17 13:54:45.190  INFO 15180 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 注册安装拦截器2
+2020-03-17 13:54:45.190  INFO 15180 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 注册国际化拦截器
+2020-03-17 13:54:45.191  INFO 15180 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 将LocaleChangeInterceptor注入到Spring容器当中，国际化参数拦截器！
+2020-03-17 13:54:45.192  WARN 15180 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-03-17 13:54:45.245  INFO 15180 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 配置静态资源路径!
+2020-03-17 13:54:45.303  INFO 15180 --- [main] c.j.blog.config.WebMvcAutoConfiguration  : 将LocaleResolver注入到容器当中，国际化设置!
+2020-03-17 13:54:45.424  INFO 15180 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2020-03-17 13:54:45.431  INFO 15180 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2020-03-17 13:54:45.469  INFO 15180 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 8090 (http) with context path ''
+2020-03-17 13:54:45.471  INFO 15180 --- [main] cn.jump.blog.Application                 : Started Application in 3.649 seconds (JVM running for 4.902)
+2020-03-17 13:54:45.471  INFO 15180 --- [main] cn.jump.blog.listener.StartedListener    : 进入到监听器
+2020-03-17 13:54:45.471  INFO 15180 --- [main] cn.jump.blog.listener.StartedListener    : 加载主体设置!
+2020-03-17 13:54:45.472  INFO 15180 --- [main] c.j.b.service.impl.OptionsServiceImpl    : 根据列名查询另一个列的值
+2020-03-17 13:54:45.482  INFO 15180 --- [main] cn.jump.blog.listener.StartedListener    : 加载设置选项!
+2020-03-17 13:54:45.482  INFO 15180 --- [main] c.j.b.service.impl.OptionsServiceImpl    : 查询所有的设置选项
+2020-03-17 13:54:45.484  INFO 15180 --- [main] cn.jump.blog.listener.StartedListener    : 加载所有主题!
+2020-03-17 13:54:45.515  INFO 15180 --- [main] cn.jump.blog.listener.StartedListener    : The scheduled task starts successfully!
+2020-03-17 13:54:45.517  INFO 15180 --- [main] cn.jump.blog.Application                 : Jump’s Blog started at http://127.0.0.1:8090
+2020-03-17 14:00:00.002  INFO 15180 --- [hutool-cron-1] cn.jump.blog.task.PostSyncTask           : The number of visits to 0 posts has been updated
+2020-03-17 15:00:00.000  INFO 15180 --- [hutool-cron-9] cn.jump.blog.task.PostSyncTask           : The number of visits to 0 posts has been updated
+2020-03-17 16:00:00.001  INFO 15180 --- [hutool-cron-13] cn.jump.blog.task.PostSyncTask           : The number of visits to 0 posts has been updated
+2020-03-17 17:00:00.000  INFO 15180 --- [hutool-cron-20] cn.jump.blog.task.PostSyncTask           : The number of visits to 0 posts has been updated
+2020-03-17 18:00:00.000  INFO 15180 --- [hutool-cron-26] cn.jump.blog.task.PostSyncTask           : The number of visits to 0 posts has been updated
+2020-03-17 19:00:00.000  INFO 15180 --- [hutool-cron-32] cn.jump.blog.task.PostSyncTask           : The number of visits to 0 posts has been updated
